@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD5D86191F4AC26D00E75650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5D86181F4AC26D00E75650 /* AppDelegate.swift */; };
+		CD5D861B1F4AC26D00E75650 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5D861A1F4AC26D00E75650 /* ViewController.swift */; };
+		CD5D861E1F4AC26D00E75650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5D861C1F4AC26D00E75650 /* Main.storyboard */; };
+		CD5D86211F4AC26D00E75650 /* Snap_Report.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD5D861F1F4AC26D00E75650 /* Snap_Report.xcdatamodeld */; };
+		CD5D86231F4AC26D00E75650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5D86221F4AC26D00E75650 /* Assets.xcassets */; };
+		CD5D86261F4AC26D00E75650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5D86241F4AC26D00E75650 /* LaunchScreen.storyboard */; };
+		CD5D86311F4AC26E00E75650 /* Snap_ReportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5D86301F4AC26E00E75650 /* Snap_ReportTests.swift */; };
+		CD5D863C1F4AC26E00E75650 /* Snap_ReportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5D863B1F4AC26E00E75650 /* Snap_ReportUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD5D862D1F4AC26E00E75650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD5D860D1F4AC26D00E75650 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD5D86141F4AC26D00E75650;
+			remoteInfo = "Snap&Report";
+		};
+		CD5D86381F4AC26E00E75650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD5D860D1F4AC26D00E75650 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD5D86141F4AC26D00E75650;
+			remoteInfo = "Snap&Report";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD5D86151F4AC26D00E75650 /* Snap&Report.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snap&Report.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5D86181F4AC26D00E75650 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD5D861A1F4AC26D00E75650 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD5D861D1F4AC26D00E75650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD5D86201F4AC26D00E75650 /* Snap_Report.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Snap_Report.xcdatamodel; sourceTree = "<group>"; };
+		CD5D86221F4AC26D00E75650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD5D86251F4AC26D00E75650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD5D86271F4AC26D00E75650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5D862C1F4AC26E00E75650 /* Snap&ReportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snap&ReportTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5D86301F4AC26E00E75650 /* Snap_ReportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap_ReportTests.swift; sourceTree = "<group>"; };
+		CD5D86321F4AC26E00E75650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5D86371F4AC26E00E75650 /* Snap&ReportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snap&ReportUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5D863B1F4AC26E00E75650 /* Snap_ReportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap_ReportUITests.swift; sourceTree = "<group>"; };
+		CD5D863D1F4AC26E00E75650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD5D86121F4AC26D00E75650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5D86291F4AC26E00E75650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5D86341F4AC26E00E75650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD5D860C1F4AC26D00E75650 = {
+			isa = PBXGroup;
+			children = (
+				CD5D86171F4AC26D00E75650 /* Snap&Report */,
+				CD5D862F1F4AC26E00E75650 /* Snap&ReportTests */,
+				CD5D863A1F4AC26E00E75650 /* Snap&ReportUITests */,
+				CD5D86161F4AC26D00E75650 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD5D86161F4AC26D00E75650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD5D86151F4AC26D00E75650 /* Snap&Report.app */,
+				CD5D862C1F4AC26E00E75650 /* Snap&ReportTests.xctest */,
+				CD5D86371F4AC26E00E75650 /* Snap&ReportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD5D86171F4AC26D00E75650 /* Snap&Report */ = {
+			isa = PBXGroup;
+			children = (
+				CD5D86181F4AC26D00E75650 /* AppDelegate.swift */,
+				CD5D861A1F4AC26D00E75650 /* ViewController.swift */,
+				CD5D861C1F4AC26D00E75650 /* Main.storyboard */,
+				CD5D86221F4AC26D00E75650 /* Assets.xcassets */,
+				CD5D86241F4AC26D00E75650 /* LaunchScreen.storyboard */,
+				CD5D86271F4AC26D00E75650 /* Info.plist */,
+				CD5D861F1F4AC26D00E75650 /* Snap_Report.xcdatamodeld */,
+			);
+			path = "Snap&Report";
+			sourceTree = "<group>";
+		};
+		CD5D862F1F4AC26E00E75650 /* Snap&ReportTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD5D86301F4AC26E00E75650 /* Snap_ReportTests.swift */,
+				CD5D86321F4AC26E00E75650 /* Info.plist */,
+			);
+			path = "Snap&ReportTests";
+			sourceTree = "<group>";
+		};
+		CD5D863A1F4AC26E00E75650 /* Snap&ReportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD5D863B1F4AC26E00E75650 /* Snap_ReportUITests.swift */,
+				CD5D863D1F4AC26E00E75650 /* Info.plist */,
+			);
+			path = "Snap&ReportUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD5D86141F4AC26D00E75650 /* Snap&Report */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5D86401F4AC26E00E75650 /* Build configuration list for PBXNativeTarget "Snap&Report" */;
+			buildPhases = (
+				CD5D86111F4AC26D00E75650 /* Sources */,
+				CD5D86121F4AC26D00E75650 /* Frameworks */,
+				CD5D86131F4AC26D00E75650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snap&Report";
+			productName = "Snap&Report";
+			productReference = CD5D86151F4AC26D00E75650 /* Snap&Report.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD5D862B1F4AC26E00E75650 /* Snap&ReportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5D86431F4AC26E00E75650 /* Build configuration list for PBXNativeTarget "Snap&ReportTests" */;
+			buildPhases = (
+				CD5D86281F4AC26E00E75650 /* Sources */,
+				CD5D86291F4AC26E00E75650 /* Frameworks */,
+				CD5D862A1F4AC26E00E75650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5D862E1F4AC26E00E75650 /* PBXTargetDependency */,
+			);
+			name = "Snap&ReportTests";
+			productName = "Snap&ReportTests";
+			productReference = CD5D862C1F4AC26E00E75650 /* Snap&ReportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD5D86361F4AC26E00E75650 /* Snap&ReportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5D86461F4AC26E00E75650 /* Build configuration list for PBXNativeTarget "Snap&ReportUITests" */;
+			buildPhases = (
+				CD5D86331F4AC26E00E75650 /* Sources */,
+				CD5D86341F4AC26E00E75650 /* Frameworks */,
+				CD5D86351F4AC26E00E75650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5D86391F4AC26E00E75650 /* PBXTargetDependency */,
+			);
+			name = "Snap&ReportUITests";
+			productName = "Snap&ReportUITests";
+			productReference = CD5D86371F4AC26E00E75650 /* Snap&ReportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD5D860D1F4AC26D00E75650 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Hung Fong Tai Hiller";
+				TargetAttributes = {
+					CD5D86141F4AC26D00E75650 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7K6ZTDFM48;
+						ProvisioningStyle = Automatic;
+					};
+					CD5D862B1F4AC26E00E75650 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7K6ZTDFM48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD5D86141F4AC26D00E75650;
+					};
+					CD5D86361F4AC26E00E75650 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7K6ZTDFM48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD5D86141F4AC26D00E75650;
+					};
+				};
+			};
+			buildConfigurationList = CD5D86101F4AC26D00E75650 /* Build configuration list for PBXProject "Snap&Report" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD5D860C1F4AC26D00E75650;
+			productRefGroup = CD5D86161F4AC26D00E75650 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD5D86141F4AC26D00E75650 /* Snap&Report */,
+				CD5D862B1F4AC26E00E75650 /* Snap&ReportTests */,
+				CD5D86361F4AC26E00E75650 /* Snap&ReportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD5D86131F4AC26D00E75650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5D86261F4AC26D00E75650 /* LaunchScreen.storyboard in Resources */,
+				CD5D86231F4AC26D00E75650 /* Assets.xcassets in Resources */,
+				CD5D861E1F4AC26D00E75650 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5D862A1F4AC26E00E75650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5D86351F4AC26E00E75650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD5D86111F4AC26D00E75650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5D861B1F4AC26D00E75650 /* ViewController.swift in Sources */,
+				CD5D86191F4AC26D00E75650 /* AppDelegate.swift in Sources */,
+				CD5D86211F4AC26D00E75650 /* Snap_Report.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5D86281F4AC26E00E75650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5D86311F4AC26E00E75650 /* Snap_ReportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5D86331F4AC26E00E75650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5D863C1F4AC26E00E75650 /* Snap_ReportUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD5D862E1F4AC26E00E75650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD5D86141F4AC26D00E75650 /* Snap&Report */;
+			targetProxy = CD5D862D1F4AC26E00E75650 /* PBXContainerItemProxy */;
+		};
+		CD5D86391F4AC26E00E75650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD5D86141F4AC26D00E75650 /* Snap&Report */;
+			targetProxy = CD5D86381F4AC26E00E75650 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD5D861C1F4AC26D00E75650 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5D861D1F4AC26D00E75650 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD5D86241F4AC26D00E75650 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5D86251F4AC26D00E75650 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD5D863E1F4AC26E00E75650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD5D863F1F4AC26E00E75650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD5D86411F4AC26E00E75650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7K6ZTDFM48;
+				INFOPLIST_FILE = "Snap&Report/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SST.INC.Snap-Report";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CD5D86421F4AC26E00E75650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7K6ZTDFM48;
+				INFOPLIST_FILE = "Snap&Report/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SST.INC.Snap-Report";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CD5D86441F4AC26E00E75650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7K6ZTDFM48;
+				INFOPLIST_FILE = "Snap&ReportTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SST.INC.Snap-ReportTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snap&Report.app/Snap&Report";
+			};
+			name = Debug;
+		};
+		CD5D86451F4AC26E00E75650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7K6ZTDFM48;
+				INFOPLIST_FILE = "Snap&ReportTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SST.INC.Snap-ReportTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snap&Report.app/Snap&Report";
+			};
+			name = Release;
+		};
+		CD5D86471F4AC26E00E75650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7K6ZTDFM48;
+				INFOPLIST_FILE = "Snap&ReportUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SST.INC.Snap-ReportUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Snap&Report";
+			};
+			name = Debug;
+		};
+		CD5D86481F4AC26E00E75650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7K6ZTDFM48;
+				INFOPLIST_FILE = "Snap&ReportUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SST.INC.Snap-ReportUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Snap&Report";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD5D86101F4AC26D00E75650 /* Build configuration list for PBXProject "Snap&Report" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5D863E1F4AC26E00E75650 /* Debug */,
+				CD5D863F1F4AC26E00E75650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5D86401F4AC26E00E75650 /* Build configuration list for PBXNativeTarget "Snap&Report" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5D86411F4AC26E00E75650 /* Debug */,
+				CD5D86421F4AC26E00E75650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5D86431F4AC26E00E75650 /* Build configuration list for PBXNativeTarget "Snap&ReportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5D86441F4AC26E00E75650 /* Debug */,
+				CD5D86451F4AC26E00E75650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5D86461F4AC26E00E75650 /* Build configuration list for PBXNativeTarget "Snap&ReportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5D86471F4AC26E00E75650 /* Debug */,
+				CD5D86481F4AC26E00E75650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD5D861F1F4AC26D00E75650 /* Snap_Report.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD5D86201F4AC26D00E75650 /* Snap_Report.xcdatamodel */,
+			);
+			currentVersion = CD5D86201F4AC26D00E75650 /* Snap_Report.xcdatamodel */;
+			path = Snap_Report.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD5D860D1F4AC26D00E75650 /* Project object */;
+}
