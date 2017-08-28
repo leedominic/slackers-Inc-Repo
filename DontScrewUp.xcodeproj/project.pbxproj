@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		362FF29F1F4ACA5600AFA20C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362FF29E1F4ACA5600AFA20C /* AppDelegate.swift */; };
+		362FF2A11F4ACA5600AFA20C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362FF2A01F4ACA5600AFA20C /* ViewController.swift */; };
+		362FF2A41F4ACA5600AFA20C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362FF2A21F4ACA5600AFA20C /* Main.storyboard */; };
+		362FF2A61F4ACA5600AFA20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 362FF2A51F4ACA5600AFA20C /* Assets.xcassets */; };
+		362FF2B11F4ACA8000AFA20C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 362FF2B01F4ACA8000AFA20C /* GoogleService-Info.plist */; };
+		C73B5F5B8BB3783E45D77B3E /* Pods_DontScrewUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 316A18D2542363FF8DD853FB /* Pods_DontScrewUp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3009F192CE0DE8819600ED4F /* Pods-DontScrewUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DontScrewUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DontScrewUp/Pods-DontScrewUp.release.xcconfig"; sourceTree = "<group>"; };
+		316A18D2542363FF8DD853FB /* Pods_DontScrewUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DontScrewUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		362FF29B1F4ACA5600AFA20C /* DontScrewUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DontScrewUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		362FF29E1F4ACA5600AFA20C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		362FF2A01F4ACA5600AFA20C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		362FF2A31F4ACA5600AFA20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		362FF2A51F4ACA5600AFA20C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		362FF2AA1F4ACA5600AFA20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362FF2B01F4ACA8000AFA20C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		36531A011F4BAFB000BEDBB8 /* DontScrewUp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DontScrewUp-Bridging-Header.h"; sourceTree = "<group>"; };
+		5F91114B3983BC5434D3D0BF /* Pods-DontScrewUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DontScrewUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DontScrewUp/Pods-DontScrewUp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		362FF2981F4ACA5600AFA20C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73B5F5B8BB3783E45D77B3E /* Pods_DontScrewUp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0944042AB67A4152CF7EDF35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F91114B3983BC5434D3D0BF /* Pods-DontScrewUp.debug.xcconfig */,
+				3009F192CE0DE8819600ED4F /* Pods-DontScrewUp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		362FF2921F4ACA5600AFA20C = {
+			isa = PBXGroup;
+			children = (
+				362FF29D1F4ACA5600AFA20C /* DontScrewUp */,
+				362FF29C1F4ACA5600AFA20C /* Products */,
+				0944042AB67A4152CF7EDF35 /* Pods */,
+				3F7FACAA5A1DDEB30E908F6B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		362FF29C1F4ACA5600AFA20C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				362FF29B1F4ACA5600AFA20C /* DontScrewUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		362FF29D1F4ACA5600AFA20C /* DontScrewUp */ = {
+			isa = PBXGroup;
+			children = (
+				362FF29E1F4ACA5600AFA20C /* AppDelegate.swift */,
+				362FF2A01F4ACA5600AFA20C /* ViewController.swift */,
+				362FF2A21F4ACA5600AFA20C /* Main.storyboard */,
+				362FF2A51F4ACA5600AFA20C /* Assets.xcassets */,
+				362FF2AA1F4ACA5600AFA20C /* Info.plist */,
+				362FF2B01F4ACA8000AFA20C /* GoogleService-Info.plist */,
+				36531A011F4BAFB000BEDBB8 /* DontScrewUp-Bridging-Header.h */,
+			);
+			path = DontScrewUp;
+			sourceTree = "<group>";
+		};
+		3F7FACAA5A1DDEB30E908F6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				316A18D2542363FF8DD853FB /* Pods_DontScrewUp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		362FF29A1F4ACA5600AFA20C /* DontScrewUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 362FF2AD1F4ACA5600AFA20C /* Build configuration list for PBXNativeTarget "DontScrewUp" */;
+			buildPhases = (
+				24C883060CE671B52993CD58 /* [CP] Check Pods Manifest.lock */,
+				362FF2971F4ACA5600AFA20C /* Sources */,
+				362FF2981F4ACA5600AFA20C /* Frameworks */,
+				362FF2991F4ACA5600AFA20C /* Resources */,
+				268769492B8EACE1C6ED7D35 /* [CP] Embed Pods Frameworks */,
+				89DBD329E926E194F96BE7CE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DontScrewUp;
+			productName = DontScrewUp;
+			productReference = 362FF29B1F4ACA5600AFA20C /* DontScrewUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		362FF2931F4ACA5600AFA20C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Wong Hong Ngai";
+				TargetAttributes = {
+					362FF29A1F4ACA5600AFA20C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9R93BLSCX4;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 362FF2961F4ACA5600AFA20C /* Build configuration list for PBXProject "DontScrewUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 362FF2921F4ACA5600AFA20C;
+			productRefGroup = 362FF29C1F4ACA5600AFA20C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				362FF29A1F4ACA5600AFA20C /* DontScrewUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		362FF2991F4ACA5600AFA20C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362FF2B11F4ACA8000AFA20C /* GoogleService-Info.plist in Resources */,
+				362FF2A61F4ACA5600AFA20C /* Assets.xcassets in Resources */,
+				362FF2A41F4ACA5600AFA20C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24C883060CE671B52993CD58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DontScrewUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		268769492B8EACE1C6ED7D35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DontScrewUp/Pods-DontScrewUp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DontScrewUp/Pods-DontScrewUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89DBD329E926E194F96BE7CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DontScrewUp/Pods-DontScrewUp-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DontScrewUp/Pods-DontScrewUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		362FF2971F4ACA5600AFA20C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362FF2A11F4ACA5600AFA20C /* ViewController.swift in Sources */,
+				362FF29F1F4ACA5600AFA20C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		362FF2A21F4ACA5600AFA20C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				362FF2A31F4ACA5600AFA20C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		362FF2AB1F4ACA5600AFA20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		362FF2AC1F4ACA5600AFA20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		362FF2AE1F4ACA5600AFA20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F91114B3983BC5434D3D0BF /* Pods-DontScrewUp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 9R93BLSCX4;
+				INFOPLIST_FILE = DontScrewUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HN.DontScrewUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DontScrewUp/DontScrewUp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		362FF2AF1F4ACA5600AFA20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3009F192CE0DE8819600ED4F /* Pods-DontScrewUp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 9R93BLSCX4;
+				INFOPLIST_FILE = DontScrewUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HN.DontScrewUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DontScrewUp/DontScrewUp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		362FF2961F4ACA5600AFA20C /* Build configuration list for PBXProject "DontScrewUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362FF2AB1F4ACA5600AFA20C /* Debug */,
+				362FF2AC1F4ACA5600AFA20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		362FF2AD1F4ACA5600AFA20C /* Build configuration list for PBXNativeTarget "DontScrewUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362FF2AE1F4ACA5600AFA20C /* Debug */,
+				362FF2AF1F4ACA5600AFA20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 362FF2931F4ACA5600AFA20C /* Project object */;
+}
